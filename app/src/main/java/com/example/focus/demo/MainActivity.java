@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout.setLayoutParams(rparams);
 
         TextView tv=new TextView(this);
-        tv.setText("Wait for some magic to happen");
+        tv.setText(       "Wait for some magic to happen");
         tv.setTextSize(35f);
         tv.setTypeface(Typeface.DEFAULT_BOLD);
         tv.setTextColor(Color.parseColor("#ffffff"));
